@@ -45,8 +45,9 @@ def main():
         print(f"👉 Action for Product Team: {analysis.get('product_insight')}")
 
         # 2. Generate Special Offer (Customer-Facing Action)
-        print("Agent Status: Generating personalized retention offer...")
-        offer_message = generate_special_offer(text, analysis)
+        print(f"Agent Status: Checking customer value (LTV: ${item.get('lifetime_value_usd')}) and Margin Limit ({item.get('margin_limit_percentage')}%)...")
+        print("Agent Status: Generating personalized, margin-protected retention offer...")
+        offer_message = generate_special_offer(text, analysis, item)
 
         print(f"✉️  Message to Customer:\n{offer_message}")
         print("-" * 50)

@@ -1,20 +1,29 @@
 [
     {
-        "customer_id": "CUST-1001",
+        "customer_id": "CUST-VIP-001",
         "date": "2023-10-25T10:30:00Z",
-        "feedback_text": "I love the new features, but the mobile app crashes every time I try to log in. I might have to cancel my subscription if this isn't fixed.",
-        "platform": "App Store Review"
+        "lifetime_value_usd": 15000,
+        "monthly_spend_usd": 1250,
+        "margin_limit_percentage": 25,
+        "feedback_text": "I love the new features, but the mobile app crashes every time I try to log in. I am losing time and money here, I might have to cancel my premium subscription if this isn't fixed today.",
+        "platform": "Premium Support Portal"
     },
     {
-        "customer_id": "CUST-1002",
+        "customer_id": "CUST-REG-002",
         "date": "2023-10-26T14:15:00Z",
-        "feedback_text": "The service is good, but $99/month is way too expensive for a small business like mine. I'm looking for cheaper alternatives.",
+        "lifetime_value_usd": 150,
+        "monthly_spend_usd": 15,
+        "margin_limit_percentage": 10,
+        "feedback_text": "The service is good, but $15/month feels a bit high for what I use. I'm looking for cheaper alternatives.",
         "platform": "Support Email"
     },
     {
-        "customer_id": "CUST-1003",
+        "customer_id": "CUST-NEW-003",
         "date": "2023-10-27T09:00:00Z",
-        "feedback_text": "Everything works perfectly fine. No complaints.",
+        "lifetime_value_usd": 10,
+        "monthly_spend_usd": 10,
+        "margin_limit_percentage": 5,
+        "feedback_text": "I just signed up yesterday, everything works fine but it's hard to navigate the menu.",
         "platform": "Survey"
     }
 ]
